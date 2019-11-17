@@ -1,0 +1,12 @@
+Website to change color 
+https://onlinepngtools.com/change-png-color
+
+Blue
+rgb(0, 187, 255)
+
+Pink
+rgb(255, 0, 202)
+
+
+Video Compressor : 
+	HANDBRAKE
