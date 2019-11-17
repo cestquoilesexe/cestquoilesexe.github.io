@@ -1,3 +1,9 @@
+
+h1
+{
+	font-size: calc(12px + 1.7vw);
+}
+
 #conteneur
 {
     display: flex;
@@ -5,7 +11,6 @@
     justify-content: space-around;
     width: 100%;
     height: 50%;
-    max-height: 600px;
 }
 
 *
@@ -21,12 +26,16 @@ body{
 
 .meta_fille, .meta_garcon
 {
+	
+	width: 90%;
 	border-radius: 6%;
-	margin:2%;
+	margin:3%;
+	flex:1;
+	display: flex;
 	flex-direction: column;
 	background-color: white;
 	align-items: center;
-	justify-content: center; 
+	justify-content: center;
 }
 
 .meta_fille
@@ -37,12 +46,12 @@ body{
 
 .meta_fille:hover
 {
-	box-shadow: 0px 0px 35px rgba(255, 0, 202, 0.9); 
+	box-shadow: 0px 0px 50px rgba(255, 0, 202, 0.9); 
 }
 
 .meta_garcon:hover
 {
-	box-shadow: 0px 0px 35px rgba(0, 187, 255, 0.9); 
+	box-shadow: 0px 0px 50px rgba(0, 187, 255, 0.9); 
 }
 
 .meta_garcon
@@ -53,48 +62,56 @@ body{
 
 .element
 {
-	align-items: : center;
+	align-items: center;
 	font-size: 100%;
 	font-weight: bold;
 	align-self: center;
+	margin:0;
 }
 
 .element:nth-child(1)
 {
-    width: 100%;
-    height: 10%;
-    object-fit: contain;
+    width:90%;
     font-size: calc(8px + 1.5vw);
 	font-weight: bold;
     overflow: auto;
+    flex-basis: 0.2;
 }
 .element:nth-child(2)
 {
-    width:100%;
+    width:90%;
     height: 90%;
-    object-fit: contain;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	flex-basis: 0.8;
+
 }
+
 
 .img_fille
 {
-	width:100%;
-	height: 80%;
-/*	max-width: 90%;
-	max-height: 90%;*/
-	margin: auto;
-	vertical-align: middle;
+	width: 80%;
+	height: 55%;
 }
 
 .img_garcon
 {	
-	width:100%;
-	height: 80%;
-/*	max-width: 90%;
-	max-height: 90%;*/
-	vertical-align: middle;
+	align-self: center; 
+	width: 95%;
 }
 
-p
+footer
 {
-	font-size:calc(12px + 1.6vw)
+	width: 66%;
+	margin: auto;
+	margin-top: 150px;
+	border-top: solid gray 2px;
+}
+
+footer p
+{
+	font-size:calc(6px + 1vw);
+	text-align: center;
+
 }
