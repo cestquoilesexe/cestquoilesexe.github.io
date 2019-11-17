@@ -1,27 +1,28 @@
 
 h1
 {
-	font-size: calc(12px + 1.7vw);
+	font-size: calc(14px + 1.7vw);
 }
 
 #conteneur
 {
     display: flex;
-    flex: wrap;
-    justify-content: space-around;
-    width: 100%;
+    width: 75%;
     height: 50%;
+    justify-content: space-between;
+    margin: auto;
 }
 
 *
 {
-	padding: 10px;
+	padding-top: 1%;
+	padding-bottom: 1%;
 	text-align: center;
-	object-fit: contain;
+/*	object-fit: contain;*/
 }
 
 body{
-	background-image: linear-gradient(to right, rgba(255, 0, 202,0.1) , rgba(0, 187, 255,0.1));
+	background-image: linear-gradient(to right, rgba(255, 0, 202,0.15) , rgba(0, 187, 255,0.15));
 }
 
 .meta_fille, .meta_garcon
@@ -72,7 +73,7 @@ body{
 .element:nth-child(1)
 {
     width:90%;
-    font-size: calc(8px + 1.5vw);
+    font-size: calc(8px + 1.8vw);
 	font-weight: bold;
     overflow: auto;
     flex-basis: 0.2;
@@ -91,7 +92,7 @@ body{
 
 .img_fille
 {
-	width: 80%;
+	width: 75%;
 	height: 55%;
 }
 
@@ -114,4 +115,10 @@ footer p
 	font-size:calc(6px + 1vw);
 	text-align: center;
 
+}
+
+p
+{
+	font-size: calc(11px + 1.6vw);
+	font-weight: bold;
 }
