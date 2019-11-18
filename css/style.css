@@ -73,10 +73,10 @@ body{
 .element:nth-child(1)
 {
     width:90%;
-    font-size: calc(8px + 1.8vw);
+    font-size: calc(8px + 1.7vw);
 	font-weight: bold;
     overflow: auto;
-    flex-basis: 0.2;
+    flex-basis: 0.25;
 }
 .element:nth-child(2)
 {
@@ -85,8 +85,17 @@ body{
     display: flex;
     align-items: center;
 	justify-content: center;
-	flex-basis: 0.8;
+	flex-basis: 0.75;
 
+}
+.element:nth-child(3)
+{
+    width:90%;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	flex-basis: 0.15;
+	font-size: calc(8px + 1.5vw);
 }
 
 
@@ -119,6 +128,6 @@ footer p
 
 p
 {
-	font-size: calc(11px + 1.6vw);
+	font-size: calc(9px + 1.6vw);
 	font-weight: bold;
 }
